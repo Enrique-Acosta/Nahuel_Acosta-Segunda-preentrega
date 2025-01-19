@@ -2,11 +2,18 @@ import { Router } from "express";
 import fs from 'fs/promises';
  
 const router= Router()
+const rutaProducts= 'src/products.json'
 
+router.get('/', async (req,res)=>{
+    const data= await fs.readFile(rutaProducts, 'utf8')
+    const products= JSON.parse(data)
 
-router.get('/',(req,res)=>{
-    res.render('home', {})
+    res.render('home', {products})
 })
 
+
+router.get('/realtimeproducts', (req,res)=>{
+    res.render('realTimeProducts',{})
+})
 
 export default router

@@ -1,1 +1,22 @@
-[{"id":"2b661608f68226a50ff1","title":"Teclado Mecánico RGB","description":"Teclado mecánico con iluminación RGB y switches red.","code":"TKL123","price":75,"status":true,"stock":50,"category":"Periféricos"},{"id":"b8291accdc02c9854a08","title":"Monitor Full HD 24''","description":"Monitor de 24 pulgadas con resolución Full HD y tecnología IPS.","code":"MON456","price":150,"status":true,"stock":30,"category":"Monitores"}]
+[
+  {
+    "id": "2b661608f68226a50ff1",
+    "title": "Teclado Mecánico RGB",
+    "description": "Teclado mecánico con iluminación RGB y switches red.",
+    "code": "TKL123",
+    "price": 75,
+    "status": true,
+    "stock": 50,
+    "category": "Periféricos"
+  },
+  {
+    "id": "b8291accdc02c9854a08",
+    "title": "Monitor Full HD 24''",
+    "description": "Monitor de 24 pulgadas con resolución Full HD y tecnología IPS.",
+    "code": "MON456",
+    "price": 150,
+    "status": true,
+    "stock": 30,
+    "category": "Monitores"
+  }
+]
